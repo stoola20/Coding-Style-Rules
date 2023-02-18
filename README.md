@@ -9,7 +9,7 @@ Common used rules for SwiftLint and SwiftFormat
 export PATH="$PATH:/opt/homebrew/bin"  // add this line if you run on Apple Silicon (M1, M2) 
 
 if which swiftlint > /dev/null; then
-  swiftlint
+  swiftlint —-fix && swiftlint
 else
   echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
@@ -26,9 +26,11 @@ fi
 
 Rules for SwiftLint
 
+
 > .swift-version
 
 To specify the Swift version for SwiftFormat
+
 
 > .swiftformat
 

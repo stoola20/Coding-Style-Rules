@@ -1,2 +1,2 @@
---disable trailingCommas,unusedArguments,wrapMultilineStatementBraces
+--disable trailingCommas,unusedArguments,wrapMultilineStatementBraces,blankLinesAtStartOfScope
 --enable blankLineAfterImports,isEmpty,wrapEnumCases
